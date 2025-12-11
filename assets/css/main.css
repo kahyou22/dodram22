@@ -275,6 +275,12 @@ main .news {
   background-color: #fff3f1;
 }
 
+main .news .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 main .news .title h2 {
   display: flex;
   gap: 10px;
@@ -285,4 +291,15 @@ main .news .title h2 {
 
 main .news .title h2 img {
   width: 58px;
+}
+
+main .news .title .sns {
+  display: flex;
+  gap: 20px;
+}
+
+main .news .sns-section {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
 }
