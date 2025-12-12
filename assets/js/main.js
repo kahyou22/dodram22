@@ -66,3 +66,23 @@
   };
   const giftSwiper = new Swiper(".gift .right .swiper", swiperOpts);
 }
+
+{
+  const container = document.querySelector(
+    ".news .sns-section .swiper .swiper-wrapper"
+  );
+  // const slides = [...container.children];
+  // for (let s of slides) {
+  //   container.appendChild(s.cloneNode(true));
+  // }
+  const swiperOpts = {
+    spaceBetween: 18,
+    loop: true,
+    slidesPerView: 3,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+  };
+  const snsSwiper = new Swiper(".news .sns-section .swiper", swiperOpts);
+}

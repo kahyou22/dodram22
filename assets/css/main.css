@@ -11,6 +11,8 @@ body {
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+  margin: 0;
 }
 
 main {
@@ -269,8 +271,9 @@ main .gift .right .sale {
 main .news {
   display: flex;
   justify-content: center;
-  padding-top: 150px;
   margin-top: 150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   width: 100%;
   background-color: #fff3f1;
 }
@@ -302,4 +305,45 @@ main .news .sns-section {
   margin-top: 40px;
   display: flex;
   gap: 20px;
+}
+
+main .news .sns-section .left,
+main .news .sns-section .right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+main .news .sns-section h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+main .news .sns-section .sns-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+main .news .sns-section .swiper-wrapper {
+  display: flex;
+}
+
+main .news .sns-section .sns-wrapper {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+main .news .sns-section .right iframe {
+  aspect-ratio: 9 / 16;
 }
