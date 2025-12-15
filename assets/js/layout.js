@@ -4,16 +4,16 @@ document.addEventListener("DOMContentLoaded", () => {
             <div id="header">
                 <div class="inner">
                     <!-- logo -->
-                    <h1 class="logo"><a href="index.html"><img src="assets/img/layout/0c3d6c35bd0388d73a8ca987211f0061_31100.svg"
+                    <h1 class="logo"><a href="/index.html"><img src="/assets/img/layout/0c3d6c35bd0388d73a8ca987211f0061_31100.svg"
                                 alt="도드람로고"></a></h1>
                     <!-- top link -->
                     <div class="top_link">
                         <a href="#">로그인</a>
                         <a href="#">회원가입</a>
                         <a href="#">고객센터</a>
-                        <a href=""><img src="assets/img/layout/mu_coupon_icon.svg" alt="쿠폰"></a>
-                        <a href=""><img src="assets/img/layout/mu_mypage_icon.svg" alt="마이페이지"></a>
-                        <a href=""><img src="assets/img/layout/mu_basket_icon.svg" alt="장바구니"></a>
+                        <a href=""><img src="/assets/img/layout/mu_coupon_icon.svg" alt="쿠폰"></a>
+                        <a href=""><img src="/assets/img/layout/mu_mypage_icon.svg" alt="마이페이지"></a>
+                        <a href=""><img src="/assets/img/layout/mu_basket_icon.svg" alt="장바구니"></a>
                     </div> <!-- //top_link -->
                 </div> <!-- //inner -->
                 <!-- navigation -->
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div id="footer">
                 <div class="inner">
                     <div class="inner_info">
-                        <a href="index.html"><img src="assets/img/layout/0c3d6c35bd0388d73a8ca987211f0061_35031.svg" alt="하단 로고"></a>
+                        <a href="index.html"><img src="/assets/img/layout/0c3d6c35bd0388d73a8ca987211f0061_35031.svg" alt="하단 로고"></a>
                         <div class="footer_bottom">
                             <div class="service">
                                 <a href="https://www.dodrammall.com/service/agreement.php">이용약관</a>
