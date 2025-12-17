@@ -1,155 +1,155 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 60px;
-    background: rgb(246, 246, 246);
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background: rgb(246, 246, 246);
 }
 
 main * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 main .main-wrapper {
-    display: flex;
-    gap: 40px;
-    width: 100%;
-    max-width: 1140px;
-    padding-left: 10px;
-    padding-right: 10px;
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 main aside {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
 }
 
 main aside.right {
-    width: 50%;
+  width: 50%;
 }
 
 main .container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 26px;
-    width: 100%;
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0px 0px 4px 0px #0000000d;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 26px;
+  width: 100%;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px 0px #0000000d;
 }
 
 main .products {
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 main .products .item {
-    display: flex;
-    gap: 16px;
+  display: flex;
+  gap: 16px;
 }
 
 main .products .img {
-    width: 80px;
-    height: 80px;
-    border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
 }
 
 main .products .info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 main .products .title {
-    min-width: 240px;
-    height: 1em;
-    font-size: 18px;
+  min-width: 240px;
+  height: 1em;
+  font-size: 18px;
 }
 
 main .products .quantity {
-    min-width: 240px;
-    height: 1em;
+  min-width: 240px;
+  height: 1em;
 }
 
 main .products .price {
-    min-width: 240px;
-    height: 1em;
+  min-width: 240px;
+  height: 1em;
 }
 
 main .field-group {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 main .field-group label {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 main .field-group input {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    padding: 16px;
-    width: 100%;
-    height: 46px;
-    border-radius: 12px;
-    border: 1px solid #e7e7e7;
-    background: #f5f5f5;
-    font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  width: 100%;
+  height: 46px;
+  border-radius: 12px;
+  border: 1px solid #e7e7e7;
+  background: #f5f5f5;
+  font-size: 16px;
 }
 
 main .info-field {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 main .total-container .info-field {
-    color: #787878;
-    font-size: 18px;
+  color: #787878;
+  font-size: 18px;
 }
 
 main .total-container .info-field :last-of-type {
-    color: #000;
+  color: #000;
 }
 
 main .total-container .info-field:last-of-type {
-    color: #000;
+  color: #000;
 }
 
 main .total-container .info-field:last-of-type :last-of-type {
-    color: #e83828;
-    font-size: 20px;
-    font-weight: 600;
+  color: #e83828;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 main .total-container hr {
-    color: #787878;
+  color: #787878;
 }
 
-main .total-container button {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    width: 100%;
-    border: 0;
-    border-radius: 12px;
-    background-color: #e83828;
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
+main button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  background-color: #e83828;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-main .total-container .btn-order {
-    margin-top: 20px;
+main .btn-order {
+  margin-top: 20px;
 }
 
 @media (max-width: 1024px) {
