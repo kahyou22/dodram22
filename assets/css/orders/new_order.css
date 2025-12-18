@@ -17,11 +17,20 @@ main * {
 
 main .main-wrapper {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   gap: 40px;
   width: 100%;
-  max-width: 1140px;
+  max-width: 1260px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+main .order-wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  gap: 40px;
 }
 
 main aside {
