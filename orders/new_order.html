@@ -23,17 +23,17 @@
       <div class="main-wrapper">
         <div id="cart">
           <div class="inner">
-            <p><a href="../index.html">HOME</a> > 장바구니</p>
+            <p><a href="/index.html">HOME</a> > 주문서작성/결제</p>
             <hr />
             <div class="product">
-              <p>장바구니</p>
+              <p>주문서작성/결제</p>
               <p>
-                <span>01 장바구니</span
+                01 장바구니<img
+                  src="/assets/img/cart/icon_join_step_off.png"
+                  alt="화살표"
+                /><span>02 주문서작성/결제</span
                 ><img
                   src="/assets/img/cart/icon_join_step_on.png"
-                  alt="화살표"
-                />02 주문서작성/결제<img
-                  src="/assets/img/cart/icon_join_step_off.png"
                   alt="화살표"
                 />03 주문완료
               </p>
@@ -67,39 +67,112 @@
               <h2>주문자 정보</h2>
               <div class="field-group">
                 <label for="">주문하시는 분</label>
-                <input type="text" name="" id="" value="조휘일" />
+                <input
+                  class="form-input"
+                  type="text"
+                  name=""
+                  id=""
+                  value="조휘일"
+                />
               </div>
               <div class="field-group">
                 <label for="">휴대폰 번호</label>
-                <input type="tel" name="" id="" value="010-0000-0000" />
+                <input
+                  class="form-input"
+                  type="tel"
+                  name=""
+                  id=""
+                  value="010-0000-0000"
+                />
               </div>
               <div class="field-group">
                 <label for="">이메일</label>
-                <input type="email" name="" id="" value="whyeil@naver.com" />
+                <input
+                  class="form-input"
+                  type="email"
+                  name=""
+                  id=""
+                  value="whyeil@naver.com"
+                />
               </div>
             </div>
             <div class="container">
               <h2>배송 정보</h2>
               <div class="field-group">
+                <label for="">배송지 확인</label>
+                <ul class="field-group-col delivery_info_types">
+                  <li class="field-group-col">
+                    <input
+                      class="form-radio"
+                      type="radio"
+                      name="delivery_info_type"
+                      id="delivery_info_new"
+                    />
+                    <label for="">직접 입력</label>
+                  </li>
+                  <li class="field-group-col">
+                    <input
+                      class="form-radio"
+                      type="radio"
+                      name="delivery_info_same"
+                      id=""
+                    />
+                    <label for="">주문자 정보와 동일</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="field-group">
                 <label for="">받으실 분</label>
-                <input type="text" name="" id="" value="조휘일" />
+                <input
+                  class="form-input"
+                  type="text"
+                  name="receiver_name"
+                  id=""
+                  value="조휘일"
+                />
               </div>
               <div class="field-group">
                 <label for="">받으실 곳</label>
-                <input type="text" name="" id="" />
-                <input type="text" name="" id="" />
+                <div class="field-group-col">
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="receiver_postcode"
+                    id=""
+                  />
+                </div>
+                <div class="field-group">
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="receiver_address1"
+                    id=""
+                  />
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="receiver_address2"
+                    id=""
+                  />
+                </div>
               </div>
               <div class="field-group">
                 <label for="">휴대폰 번호</label>
-                <input type="tel" name="" id="" value="010-0000-0000" />
+                <input
+                  class="form-input"
+                  type="tel"
+                  name=""
+                  id=""
+                  value="010-0000-0000"
+                />
               </div>
             </div>
           </aside>
           <aside class="right">
             <div class="container total-container">
-              <h2>최종 결제 금액</h2>
+              <h2>결제정보</h2>
               <div class="info-field">
-                <span>총 상품 가격</span>
+                <span>상품 합계 금액</span>
                 <span>17,900원</span>
               </div>
               <div class="info-field">
