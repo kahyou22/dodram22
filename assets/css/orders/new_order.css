@@ -76,6 +76,13 @@ main .products .img {
   width: 80px;
   height: 80px;
   border-radius: 16px;
+  overflow: hidden;
+}
+
+main .products .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 main .products .info {
@@ -84,20 +91,23 @@ main .products .info {
   gap: 10px;
 }
 
-main .products .title {
+main .products .info .skeleton {
   min-width: 240px;
   height: 1em;
+}
+
+main .products .title {
   font-size: 18px;
+  color: #000;
+  text-decoration: none;
 }
 
 main .products .quantity {
-  min-width: 240px;
-  height: 1em;
+  color: #787878;
 }
 
 main .products .price {
-  min-width: 240px;
-  height: 1em;
+  color: #000;
 }
 
 main .field-group {

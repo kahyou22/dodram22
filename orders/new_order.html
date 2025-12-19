@@ -46,17 +46,30 @@
               <h2>주문 상품 목록</h2>
               <div class="products">
                 <div class="item">
-                  <div class="img skeleton"></div>
+                  <a class="img" href="#">
+                    <img
+                      src="/assets/img/new_order/1000001853_list_072.png"
+                      alt=""
+                    />
+                  </a>
                   <div class="info">
-                    <div class="title skeleton"></div>
+                    <a class="title" href="#">THE짙은 삼겹살 구이용 400g</a>
+                    <div class="quantity">1개</div>
+                    <div class="price">17,900원</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <a class="img skeleton"></a>
+                  <div class="info">
+                    <a class="title skeleton"></a>
                     <div class="quantity skeleton"></div>
                     <div class="price skeleton"></div>
                   </div>
                 </div>
                 <div class="item">
-                  <div class="img skeleton"></div>
+                  <a class="img skeleton"></a>
                   <div class="info">
-                    <div class="title skeleton"></div>
+                    <a class="title skeleton"></a>
                     <div class="quantity skeleton"></div>
                     <div class="price skeleton"></div>
                   </div>
@@ -70,7 +83,7 @@
                 <input
                   class="form-input"
                   type="text"
-                  name=""
+                  name="sender_name"
                   id=""
                   value="조휘일"
                 />
@@ -80,7 +93,7 @@
                 <input
                   class="form-input"
                   type="tel"
-                  name=""
+                  name="sender_phone"
                   id=""
                   value="010-0000-0000"
                 />
@@ -90,7 +103,7 @@
                 <input
                   class="form-input"
                   type="email"
-                  name=""
+                  name="sender_email"
                   id=""
                   value="whyeil@naver.com"
                 />
@@ -99,7 +112,7 @@
             <div class="container">
               <h2>배송 정보</h2>
               <div class="field-group">
-                <label for="">배송지 확인</label>
+                <span>배송지 확인</span>
                 <ul class="field-group-col delivery_info_types">
                   <li class="field-group-col">
                     <input
@@ -107,17 +120,20 @@
                       type="radio"
                       name="delivery_info_type"
                       id="delivery_info_new"
+                      value="0"
                     />
-                    <label for="">직접 입력</label>
+                    <label for="delivery_info_new">직접 입력</label>
                   </li>
                   <li class="field-group-col">
                     <input
                       class="form-radio"
                       type="radio"
-                      name="delivery_info_same"
-                      id=""
+                      name="delivery_info_type"
+                      id="delivery_info_same"
+                      value="1"
+                      checked
                     />
-                    <label for="">주문자 정보와 동일</label>
+                    <label for="delivery_info_same">주문자 정보와 동일</label>
                   </li>
                 </ul>
               </div>
@@ -161,7 +177,7 @@
                 <input
                   class="form-input"
                   type="tel"
-                  name=""
+                  name="receiver_phone"
                   id=""
                   value="010-0000-0000"
                 />
@@ -199,6 +215,7 @@
           </aside>
         </div>
       </div>
+      <script src="/assets/js/orders/new_order.js"></script>
     </main>
   </body>
 </html>
