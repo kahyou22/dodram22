@@ -116,7 +116,8 @@ main .field-group label {
   font-weight: 500;
 }
 
-main label:has(+ input:required)::after {
+main label:has(+ input:required)::after,
+main label:has(+ * input:required)::after {
   content: "*";
   color: #e83828;
 }
