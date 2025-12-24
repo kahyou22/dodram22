@@ -116,6 +116,11 @@ main .field-group label {
   font-weight: 500;
 }
 
+main label:has(+ input:required)::after {
+  content: "*";
+  color: #e83828;
+}
+
 main .form-input {
   margin-top: 16px;
   margin-bottom: 16px;
