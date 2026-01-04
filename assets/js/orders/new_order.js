@@ -63,4 +63,24 @@
     e.preventDefault();
     postCodeHandler.open();
   });
+
+  let popupWindow = null;
+
+  $("form.order-wrapper").submit((e) => {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    const dataObj = Object.fromEntries(formData.entries());
+
+    popupWindow = window.open(
+      "payment_popup.html",
+      "payment_popup",
+      "toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=710"
+    );
+
+    popupWindow.onload = () => {
+      popupWindow.receiveData(dataObj);
+    };
+  });
 })();
